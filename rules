@@ -7,7 +7,8 @@
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/cdbs/1/class/cmake.mk
 
-# enable this for things that don't support out-of-source builds
-# but it's cleaner to patch the build to support them.
-# DEB_BUILDDIR = $(DEB_SRCDIR)
+# I can't figure out how to get doxygen to work in an out-of-source
+# build. So, I'm giving up, and doing the build in source.
+# gross, but more pragmatic
+DEB_BUILDDIR = $(DEB_SRCDIR)
 
