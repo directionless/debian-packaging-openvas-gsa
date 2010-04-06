@@ -1,3 +1,10 @@
+openvas-gsa (1.0.0-beta5.1) UNRELEASED; urgency=low
+
+  * Removed FILEPATH variables from DEB_CMAKE_NORMAL_ARGS
+  * added SYSCONFDIR and LOCALSTATEDIR
+
+ -- seph <seph@ubuntu-harder-builder>  Tue, 06 Apr 2010 11:00:24 -0400
+
 openvas-gsa (1.0.0-beta5) UNRELEASED; urgency=low
 
   * Initial release.
