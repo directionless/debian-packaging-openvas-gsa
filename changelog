@@ -1,3 +1,9 @@
+openvas-gsa (1.0.0-beta6.SVN.r7230) UNRELEASED; urgency=low
+
+  * update to svn
+
+ -- seph <seph@ubuntu-harder-builder>  Wed, 07 Apr 2010 12:34:54 -0400
+
 openvas-gsa (1.0.0-beta5.1) UNRELEASED; urgency=low
 
   * Removed FILEPATH variables from DEB_CMAKE_NORMAL_ARGS
