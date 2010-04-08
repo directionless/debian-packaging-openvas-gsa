@@ -21,7 +21,7 @@ You Milage May Vary
 mkdir /var/tmp/openvas-gsa
 cd /var/tmp/openvas-gsa
 
-svn checkout http://svn.wald.intevation.org/svn/openvas/trunk/gsa
+svn checkout http://svn.wald.intevation.org/svn/openvas/trunk/gsa -r 7230
 cd gsa
 git clone   \
   http://github.com/directionless/debian-packaging-openvas-gsa.git debian
