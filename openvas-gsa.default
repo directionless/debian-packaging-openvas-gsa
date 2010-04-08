@@ -1,0 +1,10 @@
+# Is the daemon enabled?
+ENABLE=true
+
+# daemon startup options.
+#
+# As https appears broken (!) I recommend http only.
+# -p is what port is listens on
+# -m is the management port
+# -a is the admin port
+DAEMONOPTS="--http-only --listen=127.0.0.1 -p 9394 -m 9391 -a 9393"

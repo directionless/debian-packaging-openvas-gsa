@@ -1,0 +1,29 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 10_test.dpatch by  <seph@ubuntu-hardy-builder.colo41.auburnquad.com>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: Since gsa has threading issues when logging, don't log
+## DP: See http://www.mail-archive.com/openvas-discuss@wald.intevation.org/msg01504.html
+
+@DPATCH@
+
+Index: src/gsad_log_conf.cmake_in
+===================================================================
+--- src/gsad_log_conf.cmake_in	(revision 7230)
++++ src/gsad_log_conf.cmake_in	(working copy)
+@@ -2,13 +2,13 @@
+ prepend=%t %p
+ prepend_time_format=%Y-%m-%d %Hh%M.%S %Z
+ file=${OPENVAS_LOG_DIR}/gsad.log
+-level=128
++level=0
+ 
+ [gsad  omp]
+ prepend=%t %p
+ prepend_time_format=%Y-%m-%d %Hh%M.%S %Z
+ file=${OPENVAS_LOG_DIR}/gsad.log
+-level=128
++level=0
+ 
+ [*]
+ prepend=%t %p

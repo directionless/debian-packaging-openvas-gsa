@@ -1,3 +1,11 @@
+openvas-gsa (1.0.0-beta6.SVN.r7230.1) UNRELEASED; urgency=low
+
+  * As there's a threading bug with logging, disable logging
+    (see http://www.mail-archive.com/openvas-discuss@wald.intevation.org/msg01504.html )
+  * Added an init.d script
+
+ -- seph <seph@ubuntu-harder-builder>  Thu, 08 Apr 2010 14:06:43 -0400
+
 openvas-gsa (1.0.0-beta6.SVN.r7230) UNRELEASED; urgency=low
 
   * update to svn
